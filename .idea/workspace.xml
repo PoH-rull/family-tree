@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d2b6549-acd8-46b0-b03e-27479a2aae9b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0d2b6549-acd8-46b0-b03e-27479a2aae9b" name="Changes" comment="added person variables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/Person.java" afterDir="false" />
     </list>
@@ -53,11 +52,24 @@
       <workItem from="1699291318268" duration="61000" />
       <workItem from="1699892464203" duration="108000" />
       <workItem from="1699892595092" duration="33000" />
-      <workItem from="1699892653033" duration="1376000" />
+      <workItem from="1699892653033" duration="1547000" />
     </task>
+    <task id="LOCAL-00001" summary="added person variables">
+      <option name="closed" value="true" />
+      <created>1699894265200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699894265200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added person variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="added person variables" />
   </component>
 </project>
