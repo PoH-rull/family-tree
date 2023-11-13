@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d2b6549-acd8-46b0-b03e-27479a2aae9b" name="Changes" comment="added person variables">
+    <list default="true" id="0d2b6549-acd8-46b0-b03e-27479a2aae9b" name="Changes" comment="created binary tree">
+      <change afterPath="$PROJECT_DIR$/tree/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/FamilyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/FamilyTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "PoH-rull"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6a518b92-7112-4a42-bd95-bad1f793253e" />
+        <option name="url" value="https://github.com/PoH-rull/family-tree.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -29,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "binary-tree",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,8 +59,18 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HAREL\Documents\GitHub\family-tree\tree\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +82,7 @@
       <workItem from="1699291318268" duration="61000" />
       <workItem from="1699892464203" duration="108000" />
       <workItem from="1699892595092" duration="33000" />
-      <workItem from="1699892653033" duration="1547000" />
+      <workItem from="1699892653033" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="added person variables">
       <option name="closed" value="true" />
@@ -62,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699894265200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created binary tree">
+      <option name="closed" value="true" />
+      <created>1699894602361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699894602361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added person variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="added person variables" />
+    <MESSAGE value="created binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="created binary tree" />
   </component>
 </project>
