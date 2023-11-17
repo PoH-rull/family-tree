@@ -24,3 +24,8 @@ hs_err_pid*
 replay_pid*
 *.patch
 *.xml
+.idea/workspace.xml
+.idea/workspace.xml
+*.xml
+.idea/workspace.xml
+*.xml
