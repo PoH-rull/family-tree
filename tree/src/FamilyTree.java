@@ -5,20 +5,26 @@ public class FamilyTree {
 
     }
     private Person addRecursive(Person root ,Person person){
-        if(person == null){
-            return null;
+        if(root == null){
+            return person;
         }
-        if(person.getMother() != null){
-            person.setMother(addRecursive(person.getMother()));
+        if(root.Equals(person)){
+            return root;
         }
-        if(person.getFather() != null){
-            person.setFather(addRecursive(person.getFather()));
+        if(root.getAge() < person.getAge()){
+            root.setRight(addRecursive(root.getRight(),person));
+        }else{
+            root.setLeft(addRecursive(root.getLeft(),person));
         }
-        return person;
+        return root;
     }
     public  void add (Person person){
         this.root = addRecursive(person);
     }
-
+    public static int print(person root){
+        if(root == null){
+            return 0;
+        }
+        return 1 + print(root.getLeft()) + print(root.getRight());
 
     }

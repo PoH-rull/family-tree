@@ -11,15 +11,13 @@ public class Person {
         this.right = null;
     }
 
-    public Person (String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.left = null;
-        this.right = null;
+    public Person getRight() {
+        return right;
     }
 
-
-
+    public Person getLeft() {
+        return left;
+    }
     public String getName() {
         return name;
     }
