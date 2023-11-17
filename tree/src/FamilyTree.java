@@ -12,6 +12,9 @@ public class FamilyTree {
         }
         return person;
     }
+    public  void add (Person person){
+        this.head = addRecursive(person);
+    }
 
 
     }
