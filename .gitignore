@@ -22,6 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_9_21_PM_\[Changes\]/shelved.patch
-.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_9_21_PM_\[Changes\]1/shelved.patch
-.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_9_21_PM__Changes_.xml
+*.patch
+*.xml
+.idea/workspace.xml
+.idea/workspace.xml
+*.xml
+.idea/workspace.xml
+*.xml
