@@ -1,12 +1,14 @@
 public class Person {
     private String name;
     private int age;
+    private String relation;//based to on the person acting as root
     private Person left;
     private Person right;
 
-    public Person(String name, int age) {
+    public Person(String name, int age, String relation) {
         this.name = name;
         this.age = age;
+        this.relation = relation;
         this.left = null;
         this.right = null;
     }
@@ -32,7 +34,21 @@ public class Person {
         }
         return false;
     }
+
+    public void setRight(Person person) {
+        this.right = person;
+    }
+
+    public void setLeft(Person person) {
+        this.left = person;
+    }
+
+    public String getRelation() {
+        return relation;
+    }
+    public String toString(){
+        return name + " " + age + " " + relation;
+    }
 }
 
 
-}
