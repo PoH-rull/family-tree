@@ -1,16 +1,12 @@
 public class Person {
     private String name;
     private int age;
-    private Person mother;
-    private Person father;
     private Person left;
     private Person right;
 
-    public Person(String name, int age, Person mother, Person father) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        this.mother = mother;
-        this.father = father;
         this.left = null;
         this.right = null;
     }
@@ -22,13 +18,7 @@ public class Person {
         this.right = null;
     }
 
-    public Person getMother() {
-        return mother;
-    }
 
-    public Person getFather() {
-        return father;
-    }
 
     public String getName() {
         return name;
@@ -37,5 +27,14 @@ public class Person {
     public int getAge() {
         return age;
     }
+
+    public boolean Equals(Person person){
+        if(this.name.equals(person.getName()) && this.age == person.getAge()){
+            return true;
+        }
+        return false;
+    }
+}
+
 
 }
