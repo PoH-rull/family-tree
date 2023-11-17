@@ -1,6 +1,10 @@
 public class FamilyTree {
-    private Person head;
-    private Person addRecursive(Person person){
+    private Person root;
+    public FamilyTree (Person root){
+        this.root = root;
+
+    }
+    private Person addRecursive(Person root ,Person person){
         if(person == null){
             return null;
         }
@@ -13,7 +17,7 @@ public class FamilyTree {
         return person;
     }
     public  void add (Person person){
-        this.head = addRecursive(person);
+        this.root = addRecursive(person);
     }
 
 
