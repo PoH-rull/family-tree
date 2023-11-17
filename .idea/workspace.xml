@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d2b6549-acd8-46b0-b03e-27479a2aae9b" name="Changes" comment="deleted person">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="main-rl" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,6 +83,7 @@
       <workItem from="1699892595092" duration="33000" />
       <workItem from="1699892653033" duration="2211000" />
       <workItem from="1700236474414" duration="7000" />
+      <workItem from="1700250551716" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="added person variables">
       <option name="closed" value="true" />

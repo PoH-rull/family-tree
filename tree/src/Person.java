@@ -3,8 +3,7 @@ public class Person {
     private int age;
     private Person mother;
     private Person father;
-    private Person left;
-    private Person right;
+
 
     public Person(String name, int age, Person mother, Person father) {
         this.name = name;
