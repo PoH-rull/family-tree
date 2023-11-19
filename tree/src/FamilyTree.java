@@ -1,7 +1,7 @@
 public class FamilyTree {
     private Person root;
-    private static  boolean rootPrint=true;
-    private static int recursive=0;
+    private boolean rootPrint=true;
+    private int recursive=0;
 
     public FamilyTree(Person root) {
         this.root = root;
