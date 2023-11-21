@@ -41,7 +41,7 @@ public class FamilyTree {
         this.root = addRecursive(root, person);
     }
 
-    public static int printRight(Person root) {
+    public int printRight(Person root) {
         if (root == null) {
             recursive = 1;
             return 0;
@@ -54,7 +54,7 @@ public class FamilyTree {
         return 1;
     }
 
-    public static int printLeft(Person root) {
+    public  int printLeft(Person root) {
 
         if (root != null) {
             if (rootPrint) {
